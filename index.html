@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cocktail Database</title>
+    <link rel="stylesheet" href="./bootstrap.min.css">
+</head>
+<body>
+    <div class="navbar navbar-dark bg-primary mb-3">
+        <div class="container">
+            <a href='#' class='navbar-brand'>Cocktail Database</a>
+        </div>
+    </div>
+        <div class="card card-body ">
+            <div class="container mb-3">
+                <h1>Welcome to the Cocktail Database</h1>
+            </div>
+            <div class="container">
+                <p class="lead mb-5">Simple search below for any cocktail and you will get the recipe, click the green button to find more recipes for that cocktail. Or if you're feeling risky just click the random button to return a random cocktail!</p>
+            </div>
+            <br>
+            <br>
+            <div class="container mb-3">
+                <h3>What type of cocktail would you like?</h3>
+            </div>
+            <div class="container search card card-body">
+                <div class="px-2">
+                <input type="text" id="searchCocktail" class="form-control" placeholder="What cocktail recipe would you like?">
+                <br>
+                <div id="randomButton">
+                    <button type="button" class="col btn btn-success recipeButton mb-3">Next Type</button>
+                </div>
+                <div id="recipeReturn"></div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="Cocktail.js"></script>
+    <script src="UI.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
